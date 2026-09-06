@@ -21,19 +21,8 @@ namespace CryptoSolver
 
         private static Dictionary<string, Func<string, string>> dictMethods = new DictionaryMethods().dict;
 
-        private static List<string> users = new List<string> { "856666159",
-                                                               "351690797",
-                                                               "180130508",
-                                                               "172118570",
-                                                               "304009654",
-                                                               "265796049",
-                                                               "906858199",
-                                                               "496988839",
-                                                               "935724041",
-                                                               "407858513",
-                                                               "525927282",
-                                                               "889787893",
-                                                               "325376797"};
+        private static List<string> users = new List<string> { "123456789",
+                                                               "987654321"};
 
 
         private static Dictionary<Telegram.Bot.Types.ChatId, List<string>> UsersPath = new Dictionary<Telegram.Bot.Types.ChatId, List<string>>();
